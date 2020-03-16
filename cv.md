@@ -5,7 +5,7 @@
 #### Contact Info
 
 * E-mail: sofronov.semyon@gmail.com
-* Website: [GitHub](https://github.com/SemenSofronov)
+* Website: [GitHub](https://github.com/sofronovsd)
 
 #### Summary
 
@@ -22,6 +22,7 @@ And I am open for new career opportunities.
 * Polymer 2
 * HTML
 * CSS
+* Sass
 * Unit testing
 * Git
 * SVN
@@ -43,4 +44,4 @@ I have a master's degree in applied mathematics and computer science from the Sa
 
 #### English 
 
-My English level is B2. I participated in calls with English customers and worked with documentation in English.
+My English level is B2. I have participated in calls with English customers and worked with documentation in English.
