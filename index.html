@@ -3,96 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <title>Resume</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <title>Profile - Semyon Sofronov</title>
 </head>
 <body>
 <div class="container">
     <header class="header">
-        <div class="left-header">
-            <h1>Resume</h1>
-            <h2>Semyon Sofronov - Junior Frontend Developer</h2>
-        </div>
-        <picture>
-            <img class="photo" src="images/img.png" alt="My photo">
-        </picture>
+        <h1>Profile - Frontend Developer</h1>
     </header>
-    <section class="section-item">
-        <div class="section-left">
-            <h4>Contact info</h4>
+    <div class="row row__container">
+        <div class="col-3">
+            <div class="item__container">
+                <picture>
+                    <img class="photo" src="images/img.jpg" alt="My photo">
+                </picture>
+            </div>
         </div>
-        <div class="section-right">
-            <ul>
-                <li>E-mail: sofronov.semyon@gmail.com</li>
-                <li>Website: <a href="https://github.com/SemenSofronov">GitHub</a></li>
-            </ul>
+        <div class="col">
+            <div class="item__container">
+                <h2>Semyon Sofronov</h2>
+                <p class="item-text">I work as a Java backend developer, but want to get experience with frontend technologies.
+                    And I am open for new career opportunities.</p>
+            </div>
         </div>
-    </section>
-    <section class="section-item">
-        <div class="section-left">
-            <h4>Summary</h4>
+    </div>
+    <div class="row row__container">
+        <div class="col-3">
+            <div class="item__container">
+                <h4>Contact info</h4>
+            </div>
         </div>
-        <div class="section-right">
-            <p>I work as a Java backend developer, but want to get experience with frontend technologies.
-                And I am open for new career opportunities.</p>
+        <div class="col">
+            <div class="item__container">
+                <ul class="contact-list">
+                    <li>
+                        <div class="contact-item">
+                            <i class="material-icons">email</i>
+                            <a href="mailto:sofronov.semyon@gmail.com">sofronov.semyon@gmail.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-item">
+                            <i class="material-icons">integration_instructions</i>
+                            <a href="https://github.com/SemenSofronov" target="_blank">GitHub</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-item">
+                            <i class="material-icons">account_box</i>
+                            <a href="https://www.linkedin.com/in/semyon-sofronov/" target="_blank">LinkedIn</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </section>
-    <section class="section-item">
-        <div class="section-left">
-            <h4>Skills</h4>
+    </div>
+    <div class="row row__container">
+        <div class="col-3">
+            <div class="item__container">
+                <h4>Skills</h4>
+            </div>
         </div>
-        <div class="section-right">
-            <ul>
-                <li>Java</li>
-                <li>Spring Framework</li>
-                <li>PostgreSQL</li>
-                <li>Android</li>
-                <li>Javascript</li>
-                <li>Polymer 2</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Unit testing</li>
-                <li>Git</li>
-                <li>SVN</li>
-                <li>Maven</li>
-                <li>Gradle</li>
-            </ul>
+        <div class="col">
+            <div class="item__container">
+                <ul class="skill-list">
+                    <li><span class="badge badge-secondary medium">Java</span></li>
+                    <li><span class="badge badge-secondary medium">Spring Framework</span></li>
+                    <li><span class="badge badge-secondary medium">PostgreSQL</span></li>
+                    <li><span class="badge badge-secondary medium">Android</span></li>
+                    <li><span class="badge badge-secondary medium">Javascript</span></li>
+                    <li><span class="badge badge-secondary medium">Polymer 2</span></li>
+                    <li><span class="badge badge-secondary medium">HTML</span></li>
+                    <li><span class="badge badge-secondary medium">CSS</span></li>
+                    <li><span class="badge badge-secondary medium">Unit testing</span></li>
+                    <li><span class="badge badge-secondary medium">Git</span></li>
+                    <li><span class="badge badge-secondary medium">SVN</span></li>
+                    <li><span class="badge badge-secondary medium">Maven</span></li>
+                    <li><span class="badge badge-secondary medium">Gradle</span></li>
+                </ul>
+            </div>
         </div>
-    </section>
-    <section class="section-item">
-        <div class="section-left">
-            <h4>Code examples</h4>
+    </div>
+    <div class="row row__container">
+        <div class="col-3">
+            <div class="item__container">
+                <h4>Code examples</h4>
+            </div>
         </div>
-        <div class="section-right">
-            <p>I haven’t got any frontend code examples yet.</p>
+        <div class="col">
+            <div class="item__container">
+                <p class="item-text">I haven’t got any frontend code examples yet.</p>
+            </div>
         </div>
-    </section>
-    <section class="section-item">
-        <div class="section-left">
-            <h4>Experience</h4>
+    </div>
+    <div class="row row__container">
+        <div class="col-3">
+            <div class="item__container">
+                <h4>Experience</h4>
+            </div>
         </div>
-        <div class="section-right">
-            <p>I have 2 years of experience as a backend developer. I also took part in developing a web application for
-                government using Polymer 2.</p>
+        <div class="col">
+            <div class="item__container">
+                <p class="item-text">I have 2 years of experience as a backend developer. I also took part in developing a web application
+                    for
+                    government using Polymer 2.</p>
+            </div>
         </div>
-    </section>
-    <section class="section-item">
-        <div class="section-left">
-            <h4>Education</h4>
+    </div>
+    <div class="row row__container">
+        <div class="col-3">
+            <div class="item__container">
+                <h4>Education</h4>
+            </div>
         </div>
-        <div class="section-right">
-            <p>I have a master’s degree in applied mathematics and computer science from the Samara National
-                Research University.</p>
+        <div class="col">
+            <div class="item__container">
+                <p class="item-text">I have a master’s degree in applied mathematics and computer science from the Samara National
+                    Research University.</p>
+            </div>
         </div>
-    </section>
-    <section class="section-item">
-        <div class="section-left">
-            <h4>English</h4>
+    </div>
+    <div class="row row__container">
+        <div class="col-3">
+            <div class="item__container">
+                <h4>English</h4>
+            </div>
         </div>
-        <div class="section-right">
-            <p>My English level is B2. I participated in calls with English customers and worked with documentation in
-                English.</p>
+        <div class="col">
+            <div class="item__container">
+                <p class="item-text">My English level is B2. I participated in calls with English customers and worked with documentation
+                    in
+                    English.</p>
+            </div>
         </div>
-    </section>
+    </div>
 </div>
 </body>
 </html>
